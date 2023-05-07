@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.container{
+    padding: 20px 70px;    
+}
+
+.current-info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.date-container .time{
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.date-container #am-pm{
+    font-size: 30px;
+    margin-left: 20px; 
+}
+
+.date-container .date{
+    font-size: 30px;   
+}
+
+.place-container{
+    text-align: end;
+}
+
+.current-info .others{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: darkslategrey;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 1px solid white;
+}
+
+.current-info .others .weather-item{
+    display:flex;
+    justify-content: space-between;
+}
+
+.future-forecast{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.weather-forecast {
+ background: darkslategray;
+    color: white;
+     padding: 25px;
+     border-radius: 10px;
+}
+
+
+
+
+
+
+
